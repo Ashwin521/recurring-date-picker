@@ -11,7 +11,7 @@ export default function DateRangeSelector({ startDate, endDate, onChange }) {
           type="date"
           value={startDate}
           onChange={(e) => onChange("startDate", e.target.value)}
-          className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
         />
       </div>
       <div>
@@ -22,7 +22,7 @@ export default function DateRangeSelector({ startDate, endDate, onChange }) {
           type="date"
           value={endDate}
           onChange={(e) => onChange("endDate", e.target.value)}
-          className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
         />
       </div>
     </div>

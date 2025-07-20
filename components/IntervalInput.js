@@ -9,7 +9,7 @@ export default function IntervalInput({ value, onChange }) {
         min="1"
         value={value}
         onChange={(e) => onChange(parseInt(e.target.value))}
-        className="w-20 border border-gray-300 rounded px-2 py-1 text-center focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="w-20 border border-gray-300 rounded px-2 py-1 text-center text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
       />
       <span className="text-sm text-gray-600">day(s)</span>
     </div>
